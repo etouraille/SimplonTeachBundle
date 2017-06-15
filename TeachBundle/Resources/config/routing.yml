@@ -1,0 +1,7 @@
+simplon_teach_homepage:
+    path:     /
+    defaults: { _controller: SimplonTeachBundle:Default:index }
+
+fos_view_controller:  
+    prefix:   /
+    resource: "@SimplonTeachBundle/Controller/FosViewController.php"
